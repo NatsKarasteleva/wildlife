@@ -219,7 +219,7 @@ li:last-child{
     padding-bottom: 120px;
 }
 
-article {
+#latest-article {
     height: 1368px;
     background: #CCCCCC;
     border-radius: 0px;
