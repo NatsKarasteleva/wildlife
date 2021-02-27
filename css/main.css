@@ -33,6 +33,10 @@ header {
     margin-right: 61px;
 }
 
+.nav-items-header>li:hover {
+    text-decoration: underline;
+}
+
 li:last-child{
     margin-right: 120px;
 }
@@ -94,6 +98,7 @@ li:last-child{
 
 .nav-item-loop {
     cursor: pointer;
+    text-decoration: underline;
 }
 
 .nav-item-btn {
@@ -324,6 +329,10 @@ footer {
     margin-right: 85px;
 }
 
+.nav-item>li:hover {
+    text-decoration: underline;
+}
+
 .nav-item>li:last-child {
     list-style-type: none;
     margin-right: 0px;
@@ -357,6 +366,10 @@ footer {
     list-style-type: none;
     margin-right: 26px;
     cursor: pointer;
+}
+
+.contacts>ul>li:hover {
+    text-decoration: underline;
 }
 
 .nav-item-contacts {
