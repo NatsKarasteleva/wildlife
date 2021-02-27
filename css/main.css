@@ -151,6 +151,7 @@ li:last-child{
     width: 160px;
     height: 60px;
     background: #CD6326;
+    border: 2px solid #CD6326;
     border-radius: 5px;
     font-family: Roboto;
     font-style: normal;
