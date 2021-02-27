@@ -1,0 +1,370 @@
+@font-face {
+    font-family: Roboto; /* Имя шрифта */
+    src: url(../fonts/Roboto-Medium.ttf); /* Путь к файлу со шрифтом */
+}
+@font-face {
+    font-family: Open_Sans; /* Имя шрифта */
+    src: url(../fonts/OpenSans-Regular.ttf); /* Путь к файлу со шрифтом */
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-items-header {
+    margin-left: 0;
+    padding-left: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.nav-items-header>li {
+    list-style-type: none;
+    margin-right: 61px;
+}
+
+li:last-child{
+    margin-right: 120px;
+}
+
+.container {
+    width: 1440px;
+    margin: auto;
+}
+
+.logo {
+    margin-top: 19px;
+    margin-left: 120px;
+    display: flex;
+}
+
+.logo-img {
+    width: 70px;
+    height: 60px;
+    border-radius: 0px;
+    cursor: pointer;
+}
+
+.logo-text {
+    width: 155px;
+    height: 60px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 60px;
+    text-transform: uppercase;
+    color: #F7F7F7;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+.nav-item-link {
+    font-family: Open_Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 60px;
+    color: #F7F7F7;
+    text-decoration: none;
+}
+
+.nav-item-btn-text {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #F7F7F7;
+}
+
+.nav-item-loop {
+    cursor: pointer;
+}
+
+.nav-item-btn {
+    background: transparent;
+    width: 120px;
+    height: 50px;
+    border: 2px solid #CD6326;
+    border-radius: 5px;
+    padding-left: 23px;
+    
+}
+
+.nav-item-btn:hover {
+    background-color: #CD6326;
+    cursor: pointer;
+}
+
+.nav-item-btn:active {
+    background-color: #8F5613;
+}
+
+.nav-item-btn:focus {
+    background-color: #8F5613;
+}
+
+.text-survival {
+    width: 199px;
+    height: 72px;
+    font-family: Open_Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 72px;
+    letter-spacing: 2px;
+    color: #CD6326;
+}
+
+.carousel-text {
+    width: 274px;
+    height: 108px;
+    font-family: Open_Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    color: #F7F7F7;
+}
+
+.btn-donate {
+    width: 160px;
+    height: 60px;
+    background: #CD6326;
+    border-radius: 5px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 27px;
+    text-align: center;
+    color: #F7F7F7;
+}
+
+.survival-text {
+    padding-top: 120px;
+    padding-left: 120px;
+}
+
+.text-survival {
+    margin-bottom: 51px;
+}
+
+.carousel-text {
+    margin-bottom: 49px;
+}
+
+.row {   
+    background-color: #02160b;
+    background-image: url(../img/carousel_fox.png);
+    height: 779px;
+}
+.btn-donate {
+    margin-bottom: 240px;
+}
+
+.btn-donate:hover {
+    background-color: #E39128;
+}
+
+.btn-donate:active {
+    background-color: #8F5613;
+}
+
+.btn-donate:focus {
+    background-color: #8F5613;
+}
+
+.latest-article-header {
+    font-family: Open_Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 72px;
+    text-align: center;
+    color: #333333;
+    padding-top: 120px;
+    padding-bottom: 20px;
+}
+
+.latest-article-text {
+    font-family: Open_Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    color: #666666;
+    padding-bottom: 120px;
+}
+
+article {
+    height: 1368px;
+    background: #CCCCCC;
+    border-radius: 0px;
+    padding-right: 120px;
+    padding-left: 120px;
+}
+
+.latest-article-carousel {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 239px;
+}
+
+.normal-size {
+    width: 30px;
+    height: 70px;
+    cursor: pointer;
+}
+
+.get-notified-text {
+    font-family: Open_Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 27px;
+    line-height: 40px;
+    text-align: center;
+    color: #333333;
+    margin-bottom: 60px;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+form>input {
+    width: 540px;
+    height: 60px;
+    opacity: 0.5;
+    border-radius: 0px;
+    border: 1px solid #666666;
+    background-color: #CCCCCC;
+    padding-top: 15px;
+    padding-left: 15px;
+}
+
+form>input::placeholder {
+    width: 57px;
+    height: 27px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 27px;
+}
+
+.btn-send {
+    background: #CD6326;
+    border: 1px solid #CD6326;
+    border-radius: 0px 5px 5px 0px;
+    width: 120px;
+    height: 60px;
+    padding: 0.5px 0px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 27px;
+    color: #F7F7F7;
+    cursor: pointer;
+}
+
+.form-wrap {
+    width: 1440px;
+    padding-left: 269px;
+    padding-right: 270px;
+}
+
+footer {
+    height: 360px;
+    background-color: #02160b;
+    background-image: url(../img/footer.png);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-item-link-footer {
+    font-family: Open_Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 60px;
+    color: #F7F7F7;
+    text-decoration: none;
+}
+
+.nav-item {
+    width: 480px;
+    display: flex;
+    align-items: center;
+}
+
+.nav-item>li {
+    list-style-type: none;
+    margin-right: 85px;
+}
+
+.nav-item>li:last-child {
+    list-style-type: none;
+    margin-right: 0px;
+}
+
+.nav-item-link-footer {
+    width: 129px;
+    height: 60px;
+    font-family: Open_Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 60px;
+    color: #F7F7F7;
+}
+
+.contacts {
+    width: 240px;
+    margin-right: 120px;
+}
+
+.contacts>ul {
+    margin-left: 0;
+    padding-left: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.contacts>ul>li {
+    list-style-type: none;
+    margin-right: 26px;
+    cursor: pointer;
+}
+
+.nav-item-contacts {
+    width: 40px;
+    height: 40px;
+}
+
+.logo-footer {
+    margin-left: 120px;
+    display: flex;
+}
